@@ -1,1 +1,3 @@
-"# Pushing Login Details into Cloud Datastore" 
+# Deploying Flask app into Google Cloud Platform
+
+
