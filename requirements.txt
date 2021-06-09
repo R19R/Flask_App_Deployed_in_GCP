@@ -2,3 +2,5 @@ Flask==2.0.1
 Werkzeug==2.0.1
 googleapis_common_protos
 google-cloud-ndb
+gunicorn==20.1.0
+flask-login

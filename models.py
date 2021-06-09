@@ -39,7 +39,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import os
 
 
-credentials_path = "F:\Google Cloud\Service_datastore.json"
+credentials_path = "Service_datastore.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_path
 
 db = ndb.Client()

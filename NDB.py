@@ -1,6 +1,4 @@
 from flask import Flask, json, redirect, render_template, request, jsonify, session, flash
-from flask_login.utils import confirm_login
-from google.cloud.datastore_v1.proto.entity_pb2 import ArrayValue
 from google.cloud.ndb import key
 from google.cloud.ndb.model import Key, User
 from models import User_Details, db, load_user, login
@@ -10,7 +8,7 @@ from google.cloud import datastore, ndb
 
 
 
-credentials_path = "F:\Google Cloud\Service_datastore.json"
+credentials_path = "Service_datastore.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_path
 
 
